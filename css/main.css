@@ -14,17 +14,57 @@ body {
 
 img {
   display: block;
+  width: 50%;
 }
 
-ol {
+main ol {
   display: flex;
   padding: .5em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 1rem;
 }
 
 ol li {
+  padding: .5em .75em .6em;
+  margin: 1.5rem;
   width: 40%;
+  border: 2px solid #623b0c;
+  border-radius: 8px;
+  list-style-type: none;
+  background-color: #ede3db;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-family: "Denk One";
+  color: #623b0c;
+}
+
+h1 {
+  font-family: "Denk One";
+  color: #623b0c;
+}
+
+p {
+  font-family: "Georgia",
+  color: #000;
+}
+
+a:link {
+  padding: .5em .75em .6em;
+  color: #fff;
+  font-family: "Georgia";
+  font-size: 1rem;
+  border-radius: 8px;
+  background-color: #623b0c;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #fff;
+  text-decoration: none;
 }
