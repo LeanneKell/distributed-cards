@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
   line-height: 1.5;
   background-color: #f5f2f0;
-  font-family: Georgia;
+  font-family: "Georgia serif";
 }
 
 *, *::before, *::after {
@@ -21,12 +21,12 @@ img {
 main {
   padding-left: .75em;
   display: grid;
-  grid-template-columns: 1fr;;
+  grid-template-columns: 1fr;
 }
 
-main ol {
+ol {
   display: flex;
-  padding: .5em;
+  padding: 1rem;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -35,7 +35,7 @@ main ol {
 }
 
 ol li {
-  padding: .5em .75em 1rem;
+  padding: .75em 1rem 1rem;
   width: 40%;
   border: 2px solid #623b0c;
   border-radius: 8px;
@@ -44,6 +44,8 @@ ol li {
 }
 
 h2 {
+  margin: 0;
+  padding-bottom: .75em;
   font-family: "Denk One";
   color: #623b0c;
 }
@@ -59,6 +61,7 @@ p {
 }
 
 a:link {
+  display: flex;
   padding: .6em .75em .5em;
   color: #fff;
   border-radius: 8px;
