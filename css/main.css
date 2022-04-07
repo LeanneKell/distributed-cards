@@ -19,12 +19,13 @@ img {
 }
 
 main {
-  padding-left: .75em;
+  margin-bottom: 1.5rem;
   display: grid;
   grid-template-columns: 1fr;
 }
 
 ol {
+  margin: 0;
   display: flex;
   padding: 1rem;
   flex-direction: row;
@@ -35,7 +36,7 @@ ol {
 }
 
 ol li {
-  padding: .75em 1rem 1rem;
+  padding: .5em .75em 1rem;
   width: 40%;
   border: 2px solid #623b0c;
   border-radius: 8px;
@@ -51,6 +52,8 @@ h2 {
 }
 
 h1 {
+  margin: 0;
+  padding: .5em .75em 1rem;
   font-family: "Denk One";
   color: #623b0c;
 }
