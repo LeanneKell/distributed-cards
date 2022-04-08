@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
   line-height: 1.5;
   background-color: #f5f2f0;
-  font-family: "Georgia serif";
+  font-family: "georgia serif";
 }
 
 *, *::before, *::after {
@@ -25,7 +25,7 @@ main {
 }
 
 ol {
-  margin: 0;
+  margin-bottom: 1.5rem;
   display: flex;
   padding: 1rem;
   flex-direction: row;
@@ -36,7 +36,7 @@ ol {
 }
 
 ol li {
-  padding: .5em .75em 1rem;
+  padding: .5em .75em .6em;
   width: 40%;
   border: 2px solid #623b0c;
   border-radius: 8px;
@@ -46,14 +46,14 @@ ol li {
 
 h2 {
   margin: 0;
-  padding-bottom: .75em;
+  padding-bottom: 1rem;
   font-family: "Denk One";
   color: #623b0c;
 }
 
 h1 {
   margin: 0;
-  padding: .5em .75em 1rem;
+  padding: .5em .75em .6em;
   font-family: "Denk One";
   color: #623b0c;
 }
@@ -65,7 +65,7 @@ p {
 
 a:link {
   display: flex;
-  padding: .6em .75em .5em;
+  padding: .5em .75em .6em;
   color: #fff;
   border-radius: 8px;
   background-color: #623b0c;
