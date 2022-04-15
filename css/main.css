@@ -13,13 +13,12 @@ body {
   margin: 0;
 }
 
-img {
-  width: 100%;
-  margin-bottom: 1.5rem;
-}
-
 main {
   padding: 1rem;
+}
+
+img {
+width: 100%;
 }
 
 ol {
@@ -40,6 +39,7 @@ ol li {
   border: 2px solid #623b0c;
   border-radius: 8px;
   background-color: #ede3db;
+  padding: 1rem;
 }
 
 h2 {
